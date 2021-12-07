@@ -1,0 +1,22 @@
+{
+	"name": "dang-icon",
+	"version": "0.0.4",
+	"auth": "dangdang",
+	"license": "MIT",
+	"description": "党党天下的Icon",
+	"keywords": [
+		"vue",
+		"icon"
+	],
+	"files": [
+		"dist"
+	],
+	"main": "./dist/dang-icon.umd.js",
+	"module": "./dist/dang-icon.es.js",
+	"exports": {
+		".": {
+			"import": "./dist/dang-icon.es.js",
+			"require": "./dist/dang-icon.umd.js"
+		}
+	}
+}
